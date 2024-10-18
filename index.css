@@ -35,17 +35,23 @@ select {
   padding: 0.813em 0.688em;
 }
 
-main {
+#color-conatiner {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-main div {
-  height: 80vh;
+.color-item {
+  display: flex;
+  flex-direction: row;
 }
 
-footer {
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
-  height: 50px;
-  width: 100%;
+.color-div {
+  height: 88vh;
+  width: 100px;
+}
+
+.color-hex {
+  display: flex;
+  justify-content: center;
+  color: #d1d5db;
 }

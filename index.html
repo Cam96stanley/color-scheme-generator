@@ -15,7 +15,7 @@
     <title>color-scheme-generator</title>
   </head>
   <body>
-    <form>
+    <form id="color-form">
       <input type="color" id="color-seed" />
       <select id="scheme-type">
         <option value="monochrome">Monochrome</option>
@@ -28,13 +28,7 @@
       </select>
       <input type="submit" value="Get color scheme" id="submit" />
     </form>
-    <main>
-      <div class="color-one"></div>
-      <div class="color-two"></div>
-      <div class="color-three"></div>
-      <div class="color-four"></div>
-      <div class="color-five"></div>
-    </main>
+    <div id="color-container"></div>
     <footer></footer>
     <script src="index.js"></script>
   </body>
