@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  display: flex;
+  padding: 1.438em 0.875em;
+}
+
+input,
+select {
+  border-radius: 0.375em;
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  background: none;
+}
+
+#color-seed {
+  width: 3.813em;
+  height: 3em;
+  margin-right: 0.75em;
+}
+
+#scheme-type {
+  width: 19.5em;
+  height: 3em;
+  margin-right: 0.813em;
+}
+
+#submit {
+  padding: 0.813em 0.688em;
+}
