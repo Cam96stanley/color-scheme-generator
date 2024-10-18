@@ -18,7 +18,6 @@ document.getElementById("color-form").addEventListener("submit", function (e) {
       for (let i = 0; i < data.colors.length; i++) {
         colors.push(data.colors[i].hex.value);
       }
-      console.log(colors);
       colors.forEach(function (color) {
         html += `
         <div class="color-item">
